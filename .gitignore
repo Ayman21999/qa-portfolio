@@ -1,0 +1,3 @@
+automation/test-output/
+automation/target/
+*.class
