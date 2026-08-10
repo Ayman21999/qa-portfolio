@@ -1,38 +1,43 @@
 package tests;
 
-import org.openqa.selenium.By;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.LoginPage;
+
 public class LoginTest {
+
     WebDriver driver;
+    LoginPage loginPage;
+
     @BeforeMethod
     public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com");
+        loginPage = new LoginPage(driver);
     }
 
     @Test
-    public void testLogin() {
-        String title = driver.getTitle();
-       driver.findElement(By.id("user-name")).sendKeys("wrong_user");
-       driver.findElement(By.id("password")).sendKeys("wrong_user");
-       driver.findElement(By.id("login-button")).click();
-       
-       String error = driver.findElement(By.cssSelector("[data-test='error']")).getText();
-       Assert.assertTrue(error.contains("Username and password do not match"), "Error message not shown!");
-       	
+    public void testValidLogin() {
+        loginPage.login("standard_user", "secret_sauce");
+        Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Login failed!");
+    }
+
+    @Test
+    public void testInvalidLogin() {
+        loginPage.login("wrong_user", "wrong_pass");
+        Assert.assertTrue(loginPage.getErrorMessage()
+            .contains("Username and password do not match"), "Error not shown!");
     }
 
     @AfterMethod
     public void teardown() {
         driver.quit();
     }
-
 }
