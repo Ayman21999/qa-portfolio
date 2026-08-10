@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -20,8 +21,13 @@ public class LoginTest {
     @Test
     public void testLogin() {
         String title = driver.getTitle();
-        Assert.assertEquals(title, "Swag Labs", "Wrong page title");
-
+       driver.findElement(By.id("user-name")).sendKeys("wrong_user");
+       driver.findElement(By.id("password")).sendKeys("wrong_user");
+       driver.findElement(By.id("login-button")).click();
+       
+       String error = driver.findElement(By.cssSelector("[data-test='error']")).getText();
+       Assert.assertTrue(error.contains("Username and password do not match"), "Error message not shown!");
+       	
     }
 
     @AfterMethod
