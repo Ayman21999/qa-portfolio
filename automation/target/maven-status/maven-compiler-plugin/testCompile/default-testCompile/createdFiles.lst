@@ -1,4 +1,7 @@
+tests\CartTest.class
+pages\LoginPage.class
+utils\BaseTest.class
+pages\CartPage.class
+pages\HomePage.class
 utils\ScreenshotUtils.class
 tests\LoginTest.class
-pages\LoginPage.class
-pages\HomePage.class

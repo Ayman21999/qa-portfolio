@@ -1,36 +1,29 @@
 package tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import pages.LoginPage;
+import utils.BaseTest;
 
-public class LoginTest {
+public class LoginTest extends BaseTest {
 
-    WebDriver driver;
     LoginPage loginPage;
 
     @BeforeMethod
-    public void setup() {
-    	  WebDriverManager.chromedriver().setup();
-    	    driver = new ChromeDriver();
-    	    driver.manage().window().maximize();
-    	    driver.get("https://www.saucedemo.com");
-    	    driver.manage().deleteAllCookies(); // امسح الـ cookies
-    	    loginPage = new LoginPage(driver);
+    public void setupLogin() {
+        driver.get("https://www.saucedemo.com");
+        loginPage = new LoginPage(driver);
     }
 
     @Test
     public void testValidLogin() {
-    	loginPage.login("standard_user", "secret_sauce");
+        loginPage.login("standard_user", "secret_sauce");
         Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Login failed!");
     }
+
     @Test
     public void testInvalidLogin() {
         loginPage.login("wrong_user", "wrong_pass");
@@ -43,18 +36,17 @@ public class LoginTest {
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
         loginPage.clickLogin();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("inventory.html"), 
+        Assert.assertTrue(driver.getCurrentUrl().contains("inventory.html"),
             "Login failed: URL does not contain inventory.html");
     }
 
     @DataProvider(name = "loginData")
     public Object[][] loginData() {
-    	return new Object[][] {
-    		{"standard_user", "secret_sauce", true}, 
-    	    {"locked_out_user", "secret_sauce", false},
-    	    {"wrong_user", "wrong_pass", false}
-    	};
+        return new Object[][] {
+            {"standard_user", "secret_sauce", true},
+            {"locked_out_user", "secret_sauce", false},
+            {"wrong_user", "wrong_pass", false}
+        };
     }
 
     @Test(dataProvider = "loginData")
@@ -67,13 +59,5 @@ public class LoginTest {
             Assert.assertFalse(driver.getCurrentUrl().contains("inventory"),
                 "Should have failed for: " + name);
         }
-    }
-
-    @AfterMethod
-    public void teardown(ITestResult result) {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            utils.ScreenshotUtils.TakeScreenshot(driver, result.getName());
-        }
-        driver.quit();
     }
 }
