@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
     LoginPage loginPage;
 
     @BeforeMethod
-    public void setupLogin() {
+    public void setupLogin(java.lang.reflect.Method method) {
         driver.get("https://www.saucedemo.com");
         loginPage = new LoginPage(driver);
     }
