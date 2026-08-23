@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-13T11:55:33 IDT" name="QA Portfolio Suite" finished-at="2026-08-13T11:55:55 IDT" duration-ms="22268">
+  <suite started-at="2026-08-23T12:43:23 IDT" name="QA Portfolio Suite" finished-at="2026-08-23T12:43:56 IDT" duration-ms="33454">
     <groups>
     </groups>
-    <test started-at="2026-08-13T11:55:33 IDT" name="Login Tests" finished-at="2026-08-13T11:55:50 IDT" duration-ms="17236">
+    <test started-at="2026-08-23T12:43:23 IDT" name="Login Tests" finished-at="2026-08-23T12:43:42 IDT" duration-ms="18932">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:33 IDT" name="setup" finished-at="2026-08-13T11:55:37 IDT" duration-ms="3765" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:23 IDT" name="setup" finished-at="2026-08-23T12:43:26 IDT" duration-ms="3185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:37 IDT" name="setupLogin" finished-at="2026-08-13T11:55:37 IDT" duration-ms="823" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:26 IDT" name="setupLogin" finished-at="2026-08-23T12:43:27 IDT" duration-ms="697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,22 +29,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:37 IDT" name="testInvalidLogin" finished-at="2026-08-13T11:55:38 IDT" duration-ms="316" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:27 IDT" name="testInvalidLogin" finished-at="2026-08-23T12:43:27 IDT" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:38 IDT" name="teardown" finished-at="2026-08-13T11:55:38 IDT" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:27 IDT" name="teardown" finished-at="2026-08-23T12:43:28 IDT" duration-ms="455" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:38 IDT" name="setup" finished-at="2026-08-13T11:55:39 IDT" duration-ms="1141" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:28 IDT" name="setup" finished-at="2026-08-23T12:43:29 IDT" duration-ms="1443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:39 IDT" name="setupLogin" finished-at="2026-08-13T11:55:40 IDT" duration-ms="563" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:29 IDT" name="setupLogin" finished-at="2026-08-23T12:43:30 IDT" duration-ms="607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:40 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-13T11:55:40 IDT" duration-ms="513" status="PASS">
+        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:30 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-23T12:43:30 IDT" duration-ms="509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,18 +87,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithMultipleUsers -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:40 IDT" name="teardown" finished-at="2026-08-13T11:55:40 IDT" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:30 IDT" name="teardown" finished-at="2026-08-23T12:43:31 IDT" duration-ms="323" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:40 IDT" name="setup" finished-at="2026-08-13T11:55:41 IDT" duration-ms="1081" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:31 IDT" name="setup" finished-at="2026-08-23T12:43:32 IDT" duration-ms="1281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:41 IDT" name="setupLogin" finished-at="2026-08-13T11:55:42 IDT" duration-ms="737" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:32 IDT" name="setupLogin" finished-at="2026-08-23T12:43:33 IDT" duration-ms="635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:42 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-13T11:55:43 IDT" duration-ms="619" status="PASS">
+        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:33 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-23T12:43:33 IDT" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,18 +141,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithMultipleUsers -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:43 IDT" name="teardown" finished-at="2026-08-13T11:55:43 IDT" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:33 IDT" name="teardown" finished-at="2026-08-23T12:43:34 IDT" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:43 IDT" name="setup" finished-at="2026-08-13T11:55:44 IDT" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:34 IDT" name="setup" finished-at="2026-08-23T12:43:35 IDT" duration-ms="1309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:44 IDT" name="setupLogin" finished-at="2026-08-13T11:55:45 IDT" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:35 IDT" name="setupLogin" finished-at="2026-08-23T12:43:35 IDT" duration-ms="594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:45 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-13T11:55:45 IDT" duration-ms="450" status="PASS">
+        <test-method signature="testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:35 IDT" name="testLoginWithMultipleUsers" data-provider="loginData" finished-at="2026-08-23T12:43:36 IDT" duration-ms="506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,18 +195,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithMultipleUsers -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:45 IDT" name="teardown" finished-at="2026-08-13T11:55:45 IDT" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:36 IDT" name="teardown" finished-at="2026-08-23T12:43:36 IDT" duration-ms="334" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:45 IDT" name="setup" finished-at="2026-08-13T11:55:46 IDT" duration-ms="1060" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:36 IDT" name="setup" finished-at="2026-08-23T12:43:38 IDT" duration-ms="1361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:46 IDT" name="setupLogin" finished-at="2026-08-13T11:55:47 IDT" duration-ms="558" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:38 IDT" name="setupLogin" finished-at="2026-08-23T12:43:38 IDT" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,22 +228,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testSuccessfulLogin()[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:47 IDT" name="testSuccessfulLogin" finished-at="2026-08-13T11:55:47 IDT" duration-ms="484" status="PASS">
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:38 IDT" name="testSuccessfulLogin" finished-at="2026-08-23T12:43:39 IDT" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulLogin -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:47 IDT" name="teardown" finished-at="2026-08-13T11:55:48 IDT" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:39 IDT" name="teardown" finished-at="2026-08-23T12:43:39 IDT" duration-ms="447" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:48 IDT" name="setup" finished-at="2026-08-13T11:55:49 IDT" duration-ms="1051" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:39 IDT" name="setup" finished-at="2026-08-23T12:43:41 IDT" duration-ms="1257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:49 IDT" name="setupLogin" finished-at="2026-08-13T11:55:49 IDT" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="setupLogin(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:41 IDT" name="setupLogin" finished-at="2026-08-23T12:43:41 IDT" duration-ms="247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,15 +265,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:49 IDT" name="testValidLogin" finished-at="2026-08-13T11:55:50 IDT" duration-ms="486" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:41 IDT" name="testValidLogin" finished-at="2026-08-23T12:43:42 IDT" duration-ms="882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@57bc27f5]" started-at="2026-08-13T11:55:50 IDT" name="teardown" finished-at="2026-08-13T11:55:50 IDT" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@34bde49d]" started-at="2026-08-23T12:43:42 IDT" name="teardown" finished-at="2026-08-23T12:43:42 IDT" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:tests.LoginTest@57bc27f5] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:tests.LoginTest@34bde49d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -282,9 +282,9 @@
         </test-method> <!-- teardown -->
       </class> <!-- tests.LoginTest -->
     </test> <!-- Login Tests -->
-    <test started-at="2026-08-13T11:55:50 IDT" name="Cart Tests" finished-at="2026-08-13T11:55:55 IDT" duration-ms="5007">
+    <test started-at="2026-08-23T12:43:42 IDT" name="Cart Tests" finished-at="2026-08-23T12:43:48 IDT" duration-ms="6003">
       <class name="tests.CartTest">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:50 IDT" name="setup" finished-at="2026-08-13T11:55:51 IDT" duration-ms="957" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:42 IDT" name="setup" finished-at="2026-08-23T12:43:43 IDT" duration-ms="1250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,26 +295,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpCart()[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:51 IDT" name="setUpCart" finished-at="2026-08-13T11:55:52 IDT" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="setUpCart()[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:43 IDT" name="setUpCart" finished-at="2026-08-23T12:43:44 IDT" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCart -->
-        <test-method signature="addItemTestToCart()[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:52 IDT" name="addItemTestToCart" finished-at="2026-08-13T11:55:52 IDT" duration-ms="181" status="PASS">
+        <test-method signature="addItemTestToCart()[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:44 IDT" name="addItemTestToCart" finished-at="2026-08-23T12:43:45 IDT" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemTestToCart -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:52 IDT" name="teardown" finished-at="2026-08-13T11:55:52 IDT" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:45 IDT" name="teardown" finished-at="2026-08-23T12:43:45 IDT" duration-ms="364" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addItemTestToCart status=SUCCESS method=CartTest.addItemTestToCart()[pri:0, instance:tests.CartTest@626abbd0] output={null}]]]>
+                <![CDATA[[TestResult name=addItemTestToCart status=SUCCESS method=CartTest.addItemTestToCart()[pri:0, instance:tests.CartTest@6e2aa843] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:52 IDT" name="setup" finished-at="2026-08-13T11:55:54 IDT" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:45 IDT" name="setup" finished-at="2026-08-23T12:43:46 IDT" duration-ms="1304" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,30 +325,145 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpCart()[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:54 IDT" name="setUpCart" finished-at="2026-08-13T11:55:55 IDT" duration-ms="1104" status="PASS">
+        <test-method is-config="true" signature="setUpCart()[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:46 IDT" name="setUpCart" finished-at="2026-08-23T12:43:47 IDT" duration-ms="1232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpCart -->
-        <test-method signature="removeitemTestFormCart()[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:55 IDT" name="removeitemTestFormCart" finished-at="2026-08-13T11:55:55 IDT" duration-ms="214" status="PASS">
+        <test-method signature="removeitemTestFormCart()[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:47 IDT" name="removeitemTestFormCart" finished-at="2026-08-23T12:43:48 IDT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeitemTestFormCart -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:55 IDT" name="teardown" finished-at="2026-08-13T11:55:55 IDT" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6e2aa843]" started-at="2026-08-23T12:43:48 IDT" name="teardown" finished-at="2026-08-23T12:43:48 IDT" duration-ms="308" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeitemTestFormCart status=SUCCESS method=CartTest.removeitemTestFormCart()[pri:0, instance:tests.CartTest@626abbd0] output={null}]]]>
+                <![CDATA[[TestResult name=removeitemTestFormCart status=SUCCESS method=CartTest.removeitemTestFormCart()[pri:0, instance:tests.CartTest@6e2aa843] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.CartTest@626abbd0]" started-at="2026-08-13T11:55:55 IDT" name="teardownReport" finished-at="2026-08-13T11:55:56 IDT" duration-ms="445" status="PASS">
+      </class> <!-- tests.CartTest -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2026-08-23T12:43:48 IDT" name="Products Tests" finished-at="2026-08-23T12:43:56 IDT" duration-ms="8474">
+      <class name="tests.ProductsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:48 IDT" name="setup" finished-at="2026-08-23T12:43:49 IDT" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testFirstProductName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupProducts(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:49 IDT" name="setupProducts" finished-at="2026-08-23T12:43:50 IDT" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testFirstProductName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupProducts -->
+        <test-method signature="testFirstProductName()[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:50 IDT" name="testFirstProductName" finished-at="2026-08-23T12:43:50 IDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstProductName -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:50 IDT" name="teardown" finished-at="2026-08-23T12:43:51 IDT" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFirstProductName status=SUCCESS method=ProductsTest.testFirstProductName()[pri:0, instance:tests.ProductsTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:51 IDT" name="setup" finished-at="2026-08-23T12:43:52 IDT" duration-ms="1336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testProductCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupProducts(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:52 IDT" name="setupProducts" finished-at="2026-08-23T12:43:53 IDT" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testProductCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupProducts -->
+        <test-method signature="testProductCount()[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:53 IDT" name="testProductCount" finished-at="2026-08-23T12:43:53 IDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:53 IDT" name="teardown" finished-at="2026-08-23T12:43:54 IDT" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductCount status=SUCCESS method=ProductsTest.testProductCount()[pri:0, instance:tests.ProductsTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:54 IDT" name="setup" finished-at="2026-08-23T12:43:55 IDT" duration-ms="1193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testSortByPriceLowToHigh()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupProducts(java.lang.reflect.Method)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:55 IDT" name="setupProducts" finished-at="2026-08-23T12:43:56 IDT" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductsTest.testSortByPriceLowToHigh()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupProducts -->
+        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:56 IDT" name="testSortByPriceLowToHigh" finished-at="2026-08-23T12:43:56 IDT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:56 IDT" name="teardown" finished-at="2026-08-23T12:43:56 IDT" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ProductsTest.testSortByPriceLowToHigh()[pri:0, instance:tests.ProductsTest@9816741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.ProductsTest@9816741]" started-at="2026-08-23T12:43:56 IDT" name="teardownReport" finished-at="2026-08-23T12:43:57 IDT" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->
-      </class> <!-- tests.CartTest -->
-    </test> <!-- Cart Tests -->
+      </class> <!-- tests.ProductsTest -->
+    </test> <!-- Products Tests -->
   </suite> <!-- QA Portfolio Suite -->
 </testng-results>

@@ -11,4 +11,9 @@
             <class name="tests.CartTest"/>
         </classes>
     </test>
+    <test name="Products Tests">
+    <classes>
+        <class name="tests.ProductsTest"/>
+    </classes>
+</test>
 </suite>

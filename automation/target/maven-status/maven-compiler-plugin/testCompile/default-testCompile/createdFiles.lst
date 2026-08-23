@@ -1,8 +1,10 @@
 tests\CartTest.class
+pages\ProductPage.class
 pages\LoginPage.class
 utils\BaseTest.class
 pages\CartPage.class
 pages\HomePage.class
 utils\ExtentReportManager.class
+tests\ProductsTest.class
 utils\ScreenshotUtils.class
 tests\LoginTest.class
