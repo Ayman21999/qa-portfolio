@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Set up JDK 21
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
         java-version: '21'
         distribution: 'temurin'
@@ -26,7 +26,9 @@ jobs:
     - name: Run Tests
       run: |
         cd automation
-        mvn clean test
+        mvn clean test -Dwebdriver.chrome.driver=/usr/bin/chromedriver
+      env:
+        DISPLAY: :99
 
     - name: Upload Test Report
       uses: actions/upload-artifact@v4
