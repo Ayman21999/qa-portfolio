@@ -71,12 +71,10 @@ qa-portfolio/
 
 
 
-| Module | Tests | | --- | --- |
-
+| Module | Tests | 
+| --- | --- |
 | Login | Valid, Invalid, Data Provider (3 users) |
-
 | Cart | Add item, Remove item |
-
 | Products | Count, Sort by price |
 
 
