@@ -101,5 +101,5 @@ automation/reports/TestReport.html
 ## 🔗 Links
 
 - **GitHub:** [github.com/Ayman21999](https://github.com/Ayman21999)
-- **LinkedIn:** [linkedin.com/in/ayman-shorafa](https://linkedin.com/in/ayman-shorafa)
+- **LinkedIn:** [linkedin.com/in/ayman-shorafa](https://www.linkedin.com/in/ayman-alshurafa/)
 - **Email:** [ayman.shurafa.99@gmail.com](mailto:ayman.shurafa.99@gmail.com)
