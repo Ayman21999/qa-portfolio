@@ -98,13 +98,8 @@ automation/reports/TestReport.html
 ---
 
 
-
 ## 🔗 Links
 
-
-
-- \\*GitHub:\\* github.com/Ayman21999
-
-- \\*LinkedIn:\\* linkedin.com/in/ayman-shorafa
-
-- \\*Email:\\* ayman.shurafa.99@gmail.com
+- **GitHub:** [github.com/Ayman21999](https://github.com/Ayman21999)
+- **LinkedIn:** [linkedin.com/in/ayman-shorafa](https://linkedin.com/in/ayman-shorafa)
+- **Email:** [ayman.shurafa.99@gmail.com](mailto:ayman.shurafa.99@gmail.com)
