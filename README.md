@@ -2,11 +2,23 @@
 
 # 
 
+# 
+
+# 
+
 # A professional Software QA portfolio demonstrating end-to-end testing skills across manual, automation, API, and performance testing.
 
 # 
 
+# 
+
+# 
+
 # \---
+
+# 
+
+# 
 
 # 
 
@@ -14,27 +26,55 @@
 
 # 
 
+# 
+
+# 
+
 # | Category | Tools |  |
+
+# 
 
 # | --- | --- | --- |
 
+# 
+
 # | Automation | Selenium WebDriver, Java, TestNG, Maven |  |
+
+# 
 
 # | Framework | Page Object Model (POM), Data Provider, BaseTest |  |
 
+# 
+
 # | Reporting | ExtentReports HTML, Screenshots on failure |  |
+
+# 
 
 # | API Testing | Postman |  |
 
+# 
+
 # | Performance | JMeter |  |
 
+# 
+
 # | Bug Tracking | Jira |  |
+
+# 
 
 # | Version Control | Git, GitHub |  |
 
 # 
 
+# 
+
+# 
+
 # \---
+
+# 
+
+# 
 
 # 
 
@@ -42,7 +82,15 @@
 
 # 
 
+# 
+
+# 
+
 # qa-portfolio/
+
+# 
+
+# 
 
 # 
 
@@ -50,7 +98,15 @@
 
 # 
 
+# 
+
+# 
+
 # │   ├── pages/           # Page Object Model classes
+
+# 
+
+# 
 
 # 
 
@@ -58,7 +114,15 @@
 
 # 
 
+# 
+
+# 
+
 # │   └── utils/           # BaseTest, ExtentReports, Screenshots
+
+# 
+
+# 
 
 # 
 
@@ -66,7 +130,15 @@
 
 # 
 
+# 
+
+# 
+
 # ├── api/                 # Postman Collections
+
+# 
+
+# 
 
 # 
 
@@ -74,23 +146,47 @@
 
 # 
 
+# 
+
+# 
+
 # \## ✅ Automated Test Coverage
+
+# 
+
+# 
 
 # 
 
 # | Module | Tests |
 
+# 
+
 # | --- | --- |
+
+# 
 
 # | Login | Valid, Invalid, Data Provider (3 users) |
 
+# 
+
 # | Cart | Add item, Remove item |
+
+# 
 
 # | Products | Count, Sort by price |
 
 # 
 
+# 
+
+# 
+
 # \---
+
+# 
+
+# 
 
 # 
 
@@ -98,7 +194,15 @@
 
 # 
 
+# 
+
+# 
+
 # After each test run, an HTML report is generated at:
+
+# 
+
+# 
 
 # 
 
@@ -106,7 +210,15 @@
 
 # 
 
+# 
+
+# 
+
 # \---
+
+# 
+
+# 
 
 # 
 
@@ -114,9 +226,17 @@
 
 # 
 
-# \- \*\*GitHub:\*\* github.com/Ayman21999
+# 
 
-# \- \*\*LinkedIn:\*\* linkedin.com/in/ayman-shorafa
+# 
 
-# \- \*\*Email:\*\* ayman.shurafa.99@gmail.com
+# \- \\\*\\\*GitHub:\\\*\\\* github.com/Ayman21999
+
+# 
+
+# \- \\\*\\\*LinkedIn:\\\*\\\* linkedin.com/in/ayman-shorafa
+
+# 
+
+# \- \\\*\\\*Email:\\\*\\\* ayman.shurafa.99@gmail.com
 
