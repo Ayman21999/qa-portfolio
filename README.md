@@ -1,3 +1,4 @@
+![CI](https://github.com/Ayman21999/qa-portfolio/actions/workflows/ci.yml/badge.svg)
 # QA Portfolio — Ayman Shorafa
 
 
