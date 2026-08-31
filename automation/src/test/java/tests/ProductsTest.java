@@ -19,14 +19,14 @@ public class ProductsTest extends BaseTest {
 		loginPage.login("standard_user", "secret_sauce");
 	};
 	
-	@Test
+	@Test(groups = {"smoke", "regression"})
 	public void testProductCount() {
 		
 		int count =page.getProductCount();
 		Assert.assertEquals(count , 6, "Should have 6 products !! ");
 		
 	}
-	@Test
+	@Test(groups = {"regression"})
 	public void testSortByPriceLowToHigh() {
 		page.sortByPriceLowToHigh();
 	    String firstPrice = page.getFirstProductPrice();
@@ -34,7 +34,7 @@ public class ProductsTest extends BaseTest {
 	    Assert.assertNotNull(firstPrice, "Price should not be null!");
 	    Assert.assertFalse(firstPrice.isEmpty(), "Price should not be empty!");
 	}
-	@Test
+	@Test(groups = {"regression"})
 	public void testFirstProductName() {
 		String nameFirstProduct  = page.getFirstProductName();
 		Assert.assertNotNull(nameFirstProduct," Prosduct name should not be null");

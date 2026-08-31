@@ -29,14 +29,14 @@ public class CartTest extends BaseTest {
 
         
     }
-    @Test
+    @Test(groups = {"smoke", "regression"})
     public void addItemTestToCart() {
     	cartPage.addFirstItemToCart();
     	cartPage.goToCart();
     assertEquals(cartPage.getCartItemCount(),1, "Cart should have 1 item!"	);	
     }
     
-    @Test
+    @Test(groups = {"regression"})
     public void removeitemTestFormCart() {
     	cartPage.getCartItemCount();
     	cartPage.goToCart();

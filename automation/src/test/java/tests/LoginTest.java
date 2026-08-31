@@ -18,20 +18,20 @@ public class LoginTest extends BaseTest {
         loginPage = new LoginPage(driver);
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"})
     public void testValidLogin() {
         loginPage.login("standard_user", "secret_sauce");
         Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Login failed!");
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void testInvalidLogin() {
         loginPage.login("wrong_user", "wrong_pass");
         Assert.assertTrue(loginPage.getErrorMessage()
             .contains("Username and password do not match"), "Error not shown!");
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"})
     public void testSuccessfulLogin() {
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
@@ -49,7 +49,7 @@ public class LoginTest extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "loginData")
+    @Test(groups = {"regression"}, dataProvider = "loginData")
     public void testLoginWithMultipleUsers(String name, String pass, boolean shouldPass) {
         loginPage.login(name, pass);
         if (shouldPass) {
