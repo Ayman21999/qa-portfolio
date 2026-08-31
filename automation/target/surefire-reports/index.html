@@ -123,12 +123,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-QA_Portfolio_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)">testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-QA_Portfolio_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithMultipleUsers(standard_user, secret_sauce, true)">testLoginWithMultipleUsers(standard_user, secret_sauce, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-QA_Portfolio_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithMultipleUsers(standard_user, secret_sauce, true)">testLoginWithMultipleUsers(standard_user, secret_sauce, true)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-QA_Portfolio_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)">testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -171,35 +171,6 @@
           <div class="suite-QA_Portfolio_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.ProductsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFirstProductName">
-                  </a> <!-- testFirstProductName -->
-                  <span class="method-name">testFirstProductName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testProductCount">
-                  </a> <!-- testProductCount -->
-                  <span class="method-name">testProductCount</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSortByPriceLowToHigh">
-                  </a> <!-- testSortByPriceLowToHigh -->
-                  <span class="method-name">testSortByPriceLowToHigh</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-QA_Portfolio_Suite-class-passed -->
-          <div class="suite-QA_Portfolio_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -212,18 +183,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)">
-                  </a> <!-- testLoginWithMultipleUsers(locked_out_user, secret_sauce, false) -->
-                  <span class="method-name">testLoginWithMultipleUsers</span>
-                  <span class="parameters">(locked_out_user,secret_sauce,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLoginWithMultipleUsers(standard_user, secret_sauce, true)">
                   </a> <!-- testLoginWithMultipleUsers(standard_user, secret_sauce, true) -->
                   <span class="method-name">testLoginWithMultipleUsers</span>
                   <span class="parameters">(standard_user,secret_sauce,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)">
+                  </a> <!-- testLoginWithMultipleUsers(locked_out_user, secret_sauce, false) -->
+                  <span class="method-name">testLoginWithMultipleUsers</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,false)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -268,6 +239,35 @@
                   <a name="removeitemTestFormCart">
                   </a> <!-- removeitemTestFormCart -->
                   <span class="method-name">removeitemTestFormCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Portfolio_Suite-class-passed -->
+          <div class="suite-QA_Portfolio_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstProductName">
+                  </a> <!-- testFirstProductName -->
+                  <span class="method-name">testFirstProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductCount">
+                  </a> <!-- testProductCount -->
+                  <span class="method-name">testProductCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByPriceLowToHigh">
+                  </a> <!-- testSortByPriceLowToHigh -->
+                  <span class="method-name">testSortByPriceLowToHigh</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -342,54 +342,54 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSuccessfulLogin')
+data.setCell(0, 1, 'testLoginWithMultipleUsers')
 data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 923);
+data.setCell(0, 3, 487);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testValidLogin')
+data.setCell(1, 1, 'testInvalidLogin')
 data.setCell(1, 2, 'tests.LoginTest')
-data.setCell(1, 3, 882);
+data.setCell(1, 3, 449);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginWithMultipleUsers')
+data.setCell(2, 1, 'testSuccessfulLogin')
 data.setCell(2, 2, 'tests.LoginTest')
-data.setCell(2, 3, 509);
+data.setCell(2, 3, 354);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLoginWithMultipleUsers')
+data.setCell(3, 1, 'testValidLogin')
 data.setCell(3, 2, 'tests.LoginTest')
-data.setCell(3, 3, 506);
+data.setCell(3, 3, 347);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testLoginWithMultipleUsers')
 data.setCell(4, 2, 'tests.LoginTest')
-data.setCell(4, 3, 486);
+data.setCell(4, 3, 312);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testInvalidLogin')
+data.setCell(5, 1, 'testLoginWithMultipleUsers')
 data.setCell(5, 2, 'tests.LoginTest')
-data.setCell(5, 3, 476);
+data.setCell(5, 3, 294);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testSortByPriceLowToHigh')
-data.setCell(6, 2, 'tests.ProductsTest')
-data.setCell(6, 3, 268);
+data.setCell(6, 1, 'addItemTestToCart')
+data.setCell(6, 2, 'tests.CartTest')
+data.setCell(6, 3, 193);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'removeitemTestFormCart')
 data.setCell(7, 2, 'tests.CartTest')
-data.setCell(7, 3, 256);
+data.setCell(7, 3, 187);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'addItemTestToCart')
-data.setCell(8, 2, 'tests.CartTest')
-data.setCell(8, 3, 224);
+data.setCell(8, 1, 'testSortByPriceLowToHigh')
+data.setCell(8, 2, 'tests.ProductsTest')
+data.setCell(8, 3, 165);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testFirstProductName')
 data.setCell(9, 2, 'tests.ProductsTest')
-data.setCell(9, 3, 33);
+data.setCell(9, 3, 41);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testProductCount')
 data.setCell(10, 2, 'tests.ProductsTest')
-data.setCell(10, 3, 22);
+data.setCell(10, 3, 12);
 window.suiteTableData['QA_Portfolio_Suite']= { tableData: data, tableDiv: 'times-div-QA_Portfolio_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-QA_Portfolio_Suite">
               </div> <!-- times-div-QA_Portfolio_Suite -->
             </div> <!-- times-div -->
@@ -422,185 +422,185 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testInvalidLogin())</span>
-                <span class="method-start">3186 ms</span>
+                <span class="method-start">4876 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInvalidLogin</span>
-                <span class="method-start">3883 ms</span>
+                <span class="method-start">5767 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance...)</span>
-                <span class="method-start">4361 ms</span>
+                <span class="method-start">6216 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">4824 ms</span>
+                <span class="method-start">6428 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">6267 ms</span>
+                <span class="method-start">7644 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginWithMultipleUsers(standard_user, secret_sauce, true)</span>
-                <span class="method-start">6875 ms</span>
+                <span class="method-start">8412 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUse...)</span>
-                <span class="method-start">7385 ms</span>
+                <span class="method-start">8899 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">7709 ms</span>
+                <span class="method-start">9118 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">8991 ms</span>
+                <span class="method-start">10064 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginWithMultipleUsers(locked_out_user, secret_sauce, false)</span>
-                <span class="method-start">9626 ms</span>
+                <span class="method-start">10788 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUse...)</span>
-                <span class="method-start">10112 ms</span>
+                <span class="method-start">11100 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">10427 ms</span>
+                <span class="method-start">11308 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testLoginWithMultipleUsers(java.lang.String,java.lang.String,boolean))</span>
-                <span class="method-start">11736 ms</span>
+                <span class="method-start">12286 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginWithMultipleUsers(wrong_user, wrong_pass, false)</span>
-                <span class="method-start">12331 ms</span>
+                <span class="method-start">12954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testLoginWithMultipleUsers status=SUCCESS method=LoginTest.testLoginWithMultipleUse...)</span>
-                <span class="method-start">12838 ms</span>
+                <span class="method-start">13248 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.LoginTest.testSuccessfulLogin())</span>
-                <span class="method-start">13173 ms</span>
+                <span class="method-start">13436 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testSuccessfulLogin())</span>
-                <span class="method-start">14534 ms</span>
+                <span class="method-start">14271 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulLogin</span>
-                <span class="method-start">14786 ms</span>
+                <span class="method-start">14991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, in...)</span>
-                <span class="method-start">15709 ms</span>
+                <span class="method-start">15345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.LoginTest.testValidLogin())</span>
-                <span class="method-start">16156 ms</span>
+                <span class="method-start">15486 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin(public void tests.LoginTest.testValidLogin())</span>
-                <span class="method-start">17413 ms</span>
+                <span class="method-start">16315 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidLogin</span>
-                <span class="method-start">17661 ms</span>
+                <span class="method-start">17392 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:tes...)</span>
-                <span class="method-start">18543 ms</span>
+                <span class="method-start">17739 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.CartTest.addItemTestToCart())</span>
-                <span class="method-start">18910 ms</span>
+                <span class="method-start">17928 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpCart</span>
-                <span class="method-start">20160 ms</span>
+                <span class="method-start">19875 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addItemTestToCart</span>
-                <span class="method-start">21218 ms</span>
+                <span class="method-start">22647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=addItemTestToCart status=SUCCESS method=CartTest.addItemTestToCart()[pri:0, instanc...)</span>
-                <span class="method-start">21442 ms</span>
+                <span class="method-start">22840 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.CartTest.removeitemTestFormCart())</span>
-                <span class="method-start">21808 ms</span>
+                <span class="method-start">23030 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpCart</span>
-                <span class="method-start">23112 ms</span>
+                <span class="method-start">24092 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeitemTestFormCart</span>
-                <span class="method-start">24344 ms</span>
+                <span class="method-start">56317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=removeitemTestFormCart status=SUCCESS method=CartTest.removeitemTestFormCart()[pri:...)</span>
-                <span class="method-start">24603 ms</span>
+                <span class="method-start">56504 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.ProductsTest.testFirstProductName())</span>
-                <span class="method-start">24921 ms</span>
+                <span class="method-start">56692 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupProducts(public void tests.ProductsTest.testFirstProductName())</span>
-                <span class="method-start">26116 ms</span>
+                <span class="method-start">57606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFirstProductName</span>
-                <span class="method-start">27254 ms</span>
+                <span class="method-start">65493 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testFirstProductName status=SUCCESS method=ProductsTest.testFirstProductName()[pri:...)</span>
-                <span class="method-start">27287 ms</span>
+                <span class="method-start">65534 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.ProductsTest.testProductCount())</span>
-                <span class="method-start">27594 ms</span>
+                <span class="method-start">65705 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupProducts(public void tests.ProductsTest.testProductCount())</span>
-                <span class="method-start">28930 ms</span>
+                <span class="method-start">66548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testProductCount</span>
-                <span class="method-start">30040 ms</span>
+                <span class="method-start">68674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testProductCount status=SUCCESS method=ProductsTest.testProductCount()[pri:0, insta...)</span>
-                <span class="method-start">30062 ms</span>
+                <span class="method-start">68686 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.ProductsTest.testSortByPriceLowToHigh())</span>
-                <span class="method-start">30461 ms</span>
+                <span class="method-start">68827 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupProducts(public void tests.ProductsTest.testSortByPriceLowToHigh())</span>
-                <span class="method-start">31655 ms</span>
+                <span class="method-start">69647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSortByPriceLowToHigh</span>
-                <span class="method-start">32814 ms</span>
+                <span class="method-start">70723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown([TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ProductsTest.testSortByPriceLowToHig...)</span>
-                <span class="method-start">33082 ms</span>
+                <span class="method-start">70888 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">teardownReport</span>
-                <span class="method-start">33402 ms</span>
+                <span class="method-start">71027 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
